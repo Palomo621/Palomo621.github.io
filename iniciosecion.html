@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-82">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Inicio de Seción</title>
+        <link rel="shortcut icon"  type="image/x-icon">
+
+	<meta charset="UTF-8">
+	<title>Iniciar Seción</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDAzrYH-mOhKn5eKhelyDX3q9BP5vNWY1o",
+    authDomain: "vulcanizadora-palomo-2.firebaseapp.com",
+    projectId: "vulcanizadora-palomo-2",
+    storageBucket: "vulcanizadora-palomo-2.appspot.com",
+    messagingSenderId: "1057042074956",
+    appId: "1:1057042074956:web:e11c32146f79414fcb53e9",
+    measurementId: "G-GEWB3Y27PE"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+	<div class="box">
+		<form autocomplete="off">
+			<h2>Inició de seción</h2>
+			<div class="inputBox">
+				<input type="text" required="required">
+				<span>Nombre de Usuario</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" required="required">
+				<span>Contraseña</span>
+				<i></i>
+			</div>
+			<div class="links">
+				<a href="#">¿Olvidaste tu contraseña?</a>
+				<a href="registrate.html">Registrate</a>
+			</div>
+			<center><input type="submit" value="Inicio"></center>
+		</form>
+	</div>
+</body>
+</html>
